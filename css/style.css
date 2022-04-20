@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Nunito', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Rubik', sans-serif;
+}
+p,span{
+    font-family: 'Nunito', sans-serif;
+}
+:root{
+    --textcolor: #FF4151;
+    --secondarytext: #272a3a;
+    --desctext: #565972;
+    
+}
+#menu ul li a {
+	color: black;
+	font-size: 17px;
+	margin-left: 5px;
+}
+#menu ul li a:hover{
+    color: var(--textcolor);
+}
+#menu ul i, .hero i{
+    font-size: 12px;
+}
+#memu{
+    background-attachment: fixed;
+}
+.hero {
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.hero .sub_title{
+    color: var(--textcolor);
+    font-weight: 600;
+    font-size: 20px;
+}
+.hero .title{
+    font-size: 56px;
+    font-weight: 600;
+    color: var(--secondarytext);
+}
+.hero .desc{
+    font-size: 24px;
+    font-weight: 300;
+    color: var(--desctext);
+}
+.hero_btn{
+    background: #FF4265;
+    box-shadow: 0px 17px 43px 1px rgba(221, 26, 68, 0.356);
+}
+.hero_btn:hover{
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+}
+.card_details{
+    border-right: 1px solid #eee;
+}
+.card_details:last-child{
+    border-right: none;
+}
+.card_details .title{
+    color: var(--desctext);
+}
+.card_details .desc {
+	color: #6c757d;
+    font-size: 14px;
+}
+.hero_featured .title{
+    font-size: 22px;
+}
+.hero_featured {
+	margin-bottom: 100px;
+	box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
