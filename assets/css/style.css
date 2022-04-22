@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Rubik', sans-serif;
+}
+p,span,a{
+    font-family: 'Nunito', sans-serif;
+}
+:root{
+    --primary: #ff4151;
+    --secondary: #272a3a;
+    --title: #565972; 
+}
+
+    /* Header Start From Here */
+#menu ul li a {
+	color: var(--title);
+	font-size: 17px;
+	margin-left: 5px;
+}
+#menu ul li a:hover{
+    color: var(--primary);
+}
+#menu ul i, #hero i{
+    font-size: 12px;
+}
+/* .................................... */
+
+
+/* Hero Section Start From Here */
+#hero .sub_title{
+    color: var(--primary);
+    font-weight: 600;
+}
+#hero .hero_title{
+    font-size: 56px;
+    font-weight: 600;
+    color: var(--secondary);
+}
+#hero .descripton{
+    color: var(--title);
+}
+#hero .hero_btn, .about_btn{
+    background: #FF4265;
+    box-shadow: 0px 17px 43px 1px rgba(221, 26, 68, 0.356);
+}
+#hero .hero_btn:hover{
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+}
+ /* Hero Close  */
+
+/* ............................. */
+
+/* Featured section start form here */
+ #featured .featured_card{
+     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+ }
+ #featured .card{
+     transition: 0.3s ease-in-out;
+ }
+#featured .card-title{
+    color: var(--title);
+    font-size: 22px;
+}
+#featured .card-body{
+    font-size: 14px;
+    color: #7f839c;
+}
+
+#featured .card:hover a{
+    display: block;
+    color: #ff4151;
+}
+/* Featured section close form here */
+/* ................................ */
+
+/* About section start from here */
+#about .short_desc{
+    font-weight: 600;
+}
+#about .title, .description, .sub_title{
+   color: var(--title);
+}
+/* About section end from here */
+
+/* .............................  */
+
+/* Best Services start from here */
+#best_service .title, .description, .card-text{
+    color: var(--title);
+}
+#best_service .card-title{
+    color: #202647;
+}
+/* Best services close */
+/* .......................... */
+/* testimonial strat from here */
+#testimonial .title, .description, .name, .country{
+    color: var(--title);
+}
+#testimonial .star{
+    font-size: 12px;
+    color: #ffb02b;
+}
